@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="path"></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+            <div class="thumbnail">
+                <li><img src="bike1.png" onclick="big('bike1.png');path('#e5e5e5');bg('purple')"></li>
+                <li><img src="bike2.png" onclick="big('bike2.png');path('white');bg('linear-gradient(70deg,yellow,green)')"></li>
+                <li><img src="bike3.png" onclick="big('bike3.png');path('#e5e5e5');bg('rgba(255,0,0,.8)')"></li>
+            </div>
+            <div class="big-img">
+                    <img src="bike3.png" class="big">   
+            </div> 
+            <div class="content">
+                <p>&#128293;Let's Ride&#128293;</p>
+                <br><h1>Don't Fear Dying<br>&nbsp;&nbsp;Fear Not Living</h1>
+<br><br>
+                <h5>&#128526;For Bike Lovers &amp; Bike Riders&#128157;</h5>
+<br><br>      
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
